@@ -1,2 +1,2 @@
-# vota-o_simples
+# votacao_simples
 votação simples em python
