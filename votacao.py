@@ -4,7 +4,7 @@ print('3 - Linux')
 print('4 - Netware')
 print('5 - Mac Os')
 print('6 - Outro')
-
+print('-----------------------------------------------------------------------------------------------------------')
 voto = int(input(
     print('Na sua opinião qual o melhor sistema operacional para uso de servidores?Escolha uma das opções acima: ')))
 
@@ -16,7 +16,7 @@ voto_l = 0
 voto_n = 0
 voto_m = 0
 voto_o = 0
-
+#processamento
 while voto != 0: 
 
     while voto > 6 :
@@ -44,6 +44,8 @@ while voto != 0:
     voto = int(input(print('Na sua opinião qual o melhor sistema operacional para uso de servidores? ')))
     total_votos = sum(votacao)  
 
+#fim do processamento 
+
 print('Fim de votação !!!')
 print('-------------------------------------------------------------')
 print('Sistema Operacional    Votos                    %')
@@ -55,10 +57,8 @@ print('Netware', '                ', votacao[3], '        ', votacao[3] / total_
 print('Mac Os', '                 ', votacao[4], '        ', votacao[4] / total_votos * 100)
 print('Outro', '                  ', votacao[5], '        ', votacao[5] / total_votos * 100)
 print('--------------------------------------------------------------')
-print('Total de votos válidos: ', total_votos)
+print('Total de votos válidos: ', total_votos) 
 
-
-
-#print('O sistema operacional vencedor foi: ')
+print ('O melhor servidor foi: ', max(votacao))  
 
 
