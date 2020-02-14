@@ -59,6 +59,8 @@ print('Outro', '                  ', votacao[5], '        ', votacao[5] / total_
 print('--------------------------------------------------------------')
 print('Total de votos válidos: ', total_votos) 
 
+#implementar resultado 
+
 print ('O melhor servidor foi: ', max(votacao))  
 
 
