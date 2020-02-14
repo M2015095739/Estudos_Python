@@ -4,7 +4,7 @@ print('3 - Linux')
 print('4 - Netware')
 print('5 - Mac Os')
 print('6 - Outro')
-print('-----------------------------------------------------------------------------------------------------------')
+print('-' * 40)
 voto = int(input(
     print('Na sua opinião qual o melhor sistema operacional para uso de servidores?Escolha uma das opções acima: ')))
 
@@ -47,16 +47,16 @@ while voto != 0:
 #fim do processamento 
 
 print('Fim de votação !!!')
-print('-------------------------------------------------------------')
+print('-' * 40)
 print('Sistema Operacional    Votos                    %')
-print('-------------------------------------------------------------')
+print('-' * 40)
 print('Windows Server', '         ', votacao[0], '        ', votacao[0] / total_votos * 100)
 print('Unix', '                   ', votacao[1], '        ', votacao[1] / total_votos * 100)
 print('Linux', '                  ', votacao[2], '        ', votacao[2] / total_votos * 100)
 print('Netware', '                ', votacao[3], '        ', votacao[3] / total_votos * 100)
 print('Mac Os', '                 ', votacao[4], '        ', votacao[4] / total_votos * 100)
 print('Outro', '                  ', votacao[5], '        ', votacao[5] / total_votos * 100)
-print('--------------------------------------------------------------')
+print('-' * 40)
 print('Total de votos válidos: ', total_votos) 
 
 #implementar resultado 
